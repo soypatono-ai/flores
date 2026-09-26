@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #fff4a3, #ffd45c, #f5a623);
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    color: #4a3500;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.contenedor {
+    max-width: 850px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.90);
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow: 0 8px 25px rgba(80, 50, 0, 0.25);
+    border: 3px solid #f2c230;
+}
+
+h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 48px;
+    color: #d99a00;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+h3 {
+    font-family: "Courier New", monospace;
+    font-size: 25px;
+    color: #8a6500;
+    text-align: center;
+    letter-spacing: 4px;
+    margin-bottom: 28px;
+}
+
+.introduccion {
+    font-size: 19px;
+    line-height: 1.7;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin: 0 auto 20px;
+}
+
+img {
+    width: 500px;
+    max-width: 100%;
+    display: block;
+    margin: 25px auto 35px;
+    border-radius: 18px;
+    border: 6px solid #f4c430;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 30px;
+    color: #b77900;
+    text-align: center;
+    margin: 35px 0 20px;
+}
+
+ul {
+    list-style: none;
+    max-width: 550px;
+    margin: 0 auto 25px;
+    padding: 0;
+}
+
+li {
+    font-size: 21px;
+    background-color: #fff1a8;
+    margin-bottom: 12px;
+    padding: 12px 18px;
+    border-radius: 12px;
+    border-left: 6px solid #e4aa00;
+}
+
+.final {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 21px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 30px;
+    color: #795500;
+}
